@@ -1,11 +1,11 @@
-﻿$sourcePath = 'X:\My Pictures\2016'
-$targetPath = 'D:\New Pictures\2016-3'
+$sourcePath = 'C:\My Pictures'
+$targetPath = 'C:\My Sorted Pictures'
 
 #If set to true, keeps the files in a folder with the same original containing folder name . If set to false then it will be under a folder yyyy-mm-dd
 $keepOriginalFolder = $true
 
 #Set this to $false or any other value to do a test run and not move files or create folders. Set it to "REAL" to make actual changes
-$RealMode = "REAL"
+$RealMode = $false
 
 #number of concurrent move threads
 $MaxThreads = 10
